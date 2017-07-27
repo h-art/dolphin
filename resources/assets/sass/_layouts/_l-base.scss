@@ -1,0 +1,11 @@
+html {
+    background: map-get($colors, white);
+    font-family: "Benton Sans Light", Arial, sans-serif;
+    color: #000;
+    background: #fff;
+}
+
+
+html, body, .l-site {
+    height: 100%;
+}
