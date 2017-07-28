@@ -1,0 +1,19 @@
+version: "3"
+
+services:
+    dolphin_php:
+        build:
+            context: ./build/php
+        container_name: dolphin_php
+        volumes:
+            - .:/dolphin
+    dolphin_nginx:
+        build:
+            context: ./build/nginx
+        container_name: dolphin_nginx
+        volumes:
+            - .:/dolphin
+        ports:
+            - "80:80"
+        expose:
+            - "80"
