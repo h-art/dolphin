@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>Dolphin</title>
+    <title>Hai fame di gente nuova?</title>
 
     <link href="https://fonts.googleapis.com/css?family=Raleway:900" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
@@ -24,13 +24,13 @@
         <div>
             <p>
                 Hai fame di gente nuova?<br>
-                Rispondi di sì a <strong class="inline-logo">Magnitu?<sup>®</sup></strong>
+                Rispondi di sì a...
             </p>
         </div>
         <div>
             <div class="avatar">
                 <div class="avatar__text">
-                    Magnitu?
+                    <strong class="inline-logo">Magnitu?<sup>®</sup></strong>
                 </div>
                 <div class="avatar__disc">
                     <img src="/img/avatar.jpg" alt="">
@@ -96,11 +96,6 @@
                         <strong class="inline-logo">Magnitu?<sup>®</sup></strong> è la webapp aziendale che ci fa tornare bambini, entusiasti e pronti a conoscere gente nuova. Nata dall’asocialità malata dei programmatori AKQA Italia e dal burberismo tipico della profonda campagna veneta (cioè di Treviso), <strong class="inline-logo">Magnitu?<sup>®</sup></strong> è un bot che - in minaccioso dialetto - ti chiede la disponibilità a condividere la tua pausa pranzo con colleghi selezionati a caso nel tuo ufficio (Milano, Roma, Firenze e Treviso). <strong class="inline-logo">Magnitu?<sup>®</sup></strong> crea eterogenei gruppi di 4 o 5 persone dentro cui avrai l’occasione di misurare la tua voglia di avventura e di conoscere colleghi e colleghe piccanti, belli, intelligenti, spiritosi... ma anche asessuati, brutti, sempliciotti e noiosi. Cioè se i vuttu sono fighi eora no te ga’ proprio capìo el spirito pionieristico che vol coso lì… Umberto… il capo dai.
                     </p>
                 </div>
-                <!-- <div class="thanks">
-                    <p>
-                        Bravi tutti.
-                    </p>
-                </div> -->
             </div>
             <div class="akqa-cf-form">
                 <div cf-context class="akqa-cf-form__inner"></div>
