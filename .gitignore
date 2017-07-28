@@ -18,3 +18,4 @@ composer.phar
 .env.prod
 /public/packages
 /resources/views/vendor
+resources/assets/.DS_Store
