@@ -12,8 +12,8 @@
     <link href="https://fonts.googleapis.com/css?family=Raleway:900" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 
-    <link rel="stylesheet" href="/assets/css/style.css">
-    <link rel="icon" href="/assets/img/favicon.ico">
+    <link rel="stylesheet" href="/css/app.css">
+    <link rel="icon" href="/img/favicon.ico">
     <meta name="msapplication-TileColor" content="#121010">
     <meta name="theme-color" content="#121010">
 
@@ -105,7 +105,6 @@
     </div>
 
     <script type="text/javascript" src="https://cf-4053.kxcdn.com/conversational-form/0.9.5/conversational-form.min.js" crossorigin></script>
-    <script src="/assets/js/script.js"></script>
 
 </body>
 </html>
