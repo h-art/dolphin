@@ -11,9 +11,23 @@ services:
         build:
             context: ./build/nginx
         container_name: dolphin_nginx
+        depends_on:
+            - "dolphin_php"
         volumes:
             - .:/dolphin
         ports:
             - "80:80"
         expose:
             - "80"
+    dolphin_mysql:
+        image: mysql:5.7
+        container_name: dolphin_mysql
+        ports:
+            - "3306:3306"
+        expose:
+            - "3306"
+        environment:
+            MYSQL_ROOT_PASSWORD: ${DB_PASSWORD}
+            MYSQL_DATABASE: ${DB_DATABASE}
+        volumes:
+            - /var/lib/mysql
