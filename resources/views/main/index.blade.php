@@ -37,18 +37,15 @@
 
     <div class="l-site">
 
-
-
-
         <form id="my-form-element" cf-form>
             <fieldset>
-                <label for="name">What's your name?</label>
-                <input required cf-questions="Ciao! Come ti chiami? 😊" type="text" class="form-control" name="name" id="name">
+                <label for="name">Ciao, come te te ciami?</label>
+                <input required cf-questions="Ciao, come te te ciami? 😊" type="text" class="form-control" name="name" id="name">
             </fieldset>
 
             <fieldset>
                 <label for="user-office">Dove lavori?</label>
-                <select cf-questions="Piacere di conoscerti {previous-answer}! In quale ufficio lavori?" name="user-office" id="user-office" class="form-control">
+                <select cf-questions="Ah, te gà un nome foresto {previous-answer}... te lavori Treviso, Firenxe, Miàn, Londra o dai teròni?" name="user-office" id="user-office" class="form-control">
                     <option></option>
                     <option>Treviso</option>
                     <option>Milano</option>
@@ -61,13 +58,13 @@
                 <label for="user-email">Email</label>
                 <input
                     pattern=".+\@.+\..+"
-                    cf-error="E-mail not correct"
-                    cf-questions="Lasciaci la tua mail, non appena saremo pronti ti scriveremo." type="email" class="form-control" name="user-email" id="user-email">
+                    cf-error="Sta mail xe sbajata."
+                    cf-questions="MAGNITU co’ nialtri? Dai, cussì te te integri o te te fidanxi... Assame a to’ email! ✉️" type="email" class="form-control" name="user-email" id="user-email">
             </fieldset>
 
             <fieldset>
-                <label for="thats-all">Are you ready to submit the form?</label>
-                <select cf-questions="Sei pronto a partecipare al più innovativo pranzo del mondo?" name="submit-form" id="submit-form" class="form-control">
+                <label for="thats-all">Ben! Prima delle 13.00 PM te digo come se organixemo, OK?</label>
+                <select cf-questions="Ben! Prima delle 13.00 PM te digo come se organixemo, OK?" name="submit-form" id="submit-form" class="form-control">
                     <option></option>
                     <option>Si!</option>
                 </select>
@@ -78,11 +75,10 @@
 
         <div class="site-wrapper">
             <div class="intro-wrapper">
-                <a href="#" class="m-logo">Mi e voi altri</a>
-
+                <a href="#" class="m-logo">Magnitu?</a>
                 <div>
                     <span class="m-title">
-                        A lunch with "strangers".
+                        Pausa pranxo coi foresti
                     </span>
                     <p class="m-text">
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod ex exercitationem tempore ipsa, molestias dicta doloremque eius commodi, est placeat iusto, deserunt rem, sequi numquam suscipit consectetur illo? Eligendi, cum!
@@ -98,9 +94,6 @@
                 <div cf-context class="akqa-cf-form__inner"></div>
             </div>
         </div>
-
-
-
 
     </div>
 
