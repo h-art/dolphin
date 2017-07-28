@@ -31,3 +31,8 @@ services:
             MYSQL_DATABASE: ${DB_DATABASE}
         volumes:
             - /var/lib/mysql
+    dolphin_node:
+        image: node:6-alpine
+        container_name: dolphin_node
+        volumes:
+            - .:/dolphin
