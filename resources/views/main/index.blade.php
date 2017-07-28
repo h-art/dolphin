@@ -40,12 +40,15 @@
         <form id="my-form-element" cf-form>
             <fieldset>
                 <label for="name">Ciao, come te te ciami?</label>
-                <input required cf-questions="Ciao, come te te ciami? 😊" type="text" class="form-control" name="name" id="name">
+                <input required type="text" class="form-control"
+                    cf-questions="Ciao, come te te ciami? 😊"
+                    cf-input-placeholder="Scrivi el to nome"
+                    name="name" id="name">
             </fieldset>
 
             <fieldset>
                 <label for="user-office">Dove lavori?</label>
-                <select cf-questions="Ah, te gà un nome foresto {previous-answer}... te lavori Treviso, Firenxe, Miàn o dai teròni?" name="user-office" id="user-office" class="form-control">
+                <select cf-questions="Ah, te gà un nome foresto {previous-answer}... te lavori Treviso, Firenxe, Miàn o dai teròni?" cf-input-placeholder="Clicca sul to ufficio" name="user-office" id="user-office" class="form-control">
                     <option></option>
                     <option>Treviso</option>
                     <option>Firenxe</option>
@@ -59,14 +62,15 @@
                 <input
                     pattern=".+\@.+\..+"
                     cf-error="Sta mail xe sbajata."
+                    cf-input-placeholder="Scrivi ea to mail"
                     cf-questions="MAGNITU co’ nialtri? Dai, cussì te te integri o te te fidanxi... Assame a to’ email! ✉️" type="email" class="form-control" name="user-email" id="user-email">
             </fieldset>
 
             <fieldset>
                 <label for="thats-all">Ben! Prima delle 13.00 PM te digo come se organixemo, OK?</label>
-                <select cf-questions="Ben! Prima delle 13.00 PM te digo come se organixemo, OK?" name="submit-form" id="submit-form" class="form-control">
+                <select cf-questions="Ben! Prima delle 13.00 PM te digo come se organixemo, OK?" name="submit-form" id="submit-form" class="form-control" cf-input-placeholder="Invia i to dati">
                     <option></option>
-                    <option>Si!</option>
+                    <option value="si">Sì!</option>
                 </select>
             </fieldset>
 
