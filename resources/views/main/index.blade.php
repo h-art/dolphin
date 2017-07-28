@@ -45,12 +45,12 @@
 
             <fieldset>
                 <label for="user-office">Dove lavori?</label>
-                <select cf-questions="Ah, te gà un nome foresto {previous-answer}... te lavori Treviso, Firenxe, Miàn, Londra o dai teròni?" name="user-office" id="user-office" class="form-control">
+                <select cf-questions="Ah, te gà un nome foresto {previous-answer}... te lavori Treviso, Firenxe, Miàn o dai teròni?" name="user-office" id="user-office" class="form-control">
                     <option></option>
                     <option>Treviso</option>
-                    <option>Milano</option>
+                    <option>Firenxe</option>
+                    <option>Miàn</option>
                     <option>Roma</option>
-                    <option>Firenze</option>
                 </select>
             </fieldset>
 
@@ -75,7 +75,7 @@
 
         <div class="site-wrapper">
             <div class="intro-wrapper">
-                <a href="#" class="m-logo">Magnitu?</a>
+                <a href="#" class="m-logo">🌽 Magnitu? 🌽</a>
                 <div>
                     <span class="m-title">
                         Pausa pranxo coi foresti
