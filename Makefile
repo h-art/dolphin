@@ -4,6 +4,9 @@ npm_install:
 npm_run_dev:
 	docker-compose run --rm dolphin_node sh -c "cd /dolphin && npm run dev"
 
+npm_run_watch:
+	docker-compose run --rm dolphin_node sh -c "cd /dolphin && npm run watch"
+
 migrate_install:
 	docker-compose run --rm dolphin_php sh -c "cd /dolphin && php artisan migrate:install"
 
